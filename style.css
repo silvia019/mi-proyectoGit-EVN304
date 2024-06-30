@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); 
+
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+    
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+@font-face {
+    font-family: "Redes";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 0px;  
+}
+
+/* HEADER */
+#inicio{
+    background-color: #000;
+    height: 100vh;
+
+
+}
+
+#titulos, #video_intro{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#titulos{
+    background: url(../image/fondo.jpg) no-repeat 30% 30%;
+    background-size: cover;  
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+
+   h4{
+      font-family: 'Zen Loop', cursive;
+      font-size: 2.5rem;
+      
+      letter-spacing: 5px;
+      margin-bottom: 30px;
+   }
+
+#tendencia{
+    font-family: Chilanka, cursive;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: Bubbler, cursive;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+#principal{
+    height: 100vh;
+}
+
+/* NAV */
+nav{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    background-color: rgba(165, 42, 42,0.6);
+    text-align: right;
+    z-index: 1;
+}
+
+a{
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 255);
+    display: inline-block;
+    padding: 10px 2px;
+    margin-right: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+}
+
+/* Tendencias */
+#Tendencias{
+    background-image: linear-gradient(45deg, #ff6e49 0, #ff5f4e 16.67%, #ff4d53 33.33%, #ff3858 50%, #fb195f 66.67%, #f70067 83.33%, #f10070 100%);;
+}
+
+.titulo{
+    font-family: chilanka, cursive;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+figure, #concepto_clay{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+figure h3{
+    font-size: 1.5rem;
+    font-family: 'permanet Marker', cursive;
+
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 250px;
+    text-align: center;
+}
+
+figcaption{
+    font-size: 1.2rem;
+    color: blueviolet;
+    text-align: justify;
+    background-color: rgba(42, 118, 165, 0.52);
+    padding: 10px;
+    font-family: Bubbler, cursive;
+    font-weight: 600;
+
+}
+
+#img_clay{
+    width: 60%;
+    margin: 20px;
+    float: right;
+}
+
+fieldset{
+    width: 90%;
+    background-color: chartreuse;
+    font-size: 1rem;
+    color: blueviolet;
+    font-family: 'permanet Marker', cursive;
+    border: 5px solid #55d8c1;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #a3b1c6;
+    margin: 0 auto;
+}
+
+legend{
+    color: #f10070;
+    background-color: #fff;
+    padding: 2px 10px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #a3b1c6;
+}
+
+#icono{
+    color: aqua;
+    font-size: 4rem;
+}
+
+p{
+    text-align: justify;
+}
+
+p::first-letter{
+    font-size: 2.5rem;
+    float: left;
+    margin-right: 5px;
+    margin-top: -15px;
+
+}
+
+p>span{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai', cursive;
+    text-shadow: 2px 2px 4px #000;
+}
+
+span{
+
+}
+
+ul{
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+ol{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#tabla{
+    font-size: 1rem;
+    font-family: chilanka, cursive;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+#tabla th{
+    background-color: #fff89a;
+    color: #f70067;
+
+}
+
+#tabla th, #tabla td{
+    border: 1px solid #a3b1c6;
+    padding: 8px;
+}
+
+#tabla tr:nth-child(even){
+    background-color:#a3b1c6;
+    
+}
+
+#tabla tr:nth-child(odd){
+    background-color: rgba(255, 5, 226, 0.72);
+}
+
+#tabla tr:hover{
+    background-color: #55d8c1;
+}
+
+/*contacto*/
+#contacto{
+    background: url('image/pxfuel.jpg') no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0 10px 0;
+    
+
+}
+
+#glass_estilo{
+    width: 50%;
+    margin: 0 auto; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .30);
+    box-shadow: 0 8px 32px 0 rgba(31,38,);
+    border: 1px ;
+    padding: 25px 15px;
+    backdrop-filter: blur(20px);
+}
+
+h2{
+    color: #fb195f;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    text-shadow: #000;
+    margin: 20px;
+}
+
+input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #55d8c1;
+}
+
+input:focus{
+    background-color: blueviolet;
+    color: #fff;
+    outline: 0px;
+}
+
+input[type="submit"]{
+    background-color: #e1b1e7;
+    width: 130px;
+    color: #000;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-top: 25px;
+
+}
+
+input[type="submit"]:hover{
+    background-color: cadetblue;
+    color: #f70067;
+    cursor: pointer;
+
+}
+
+#mapa{
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+}
+
+/*medios*/
+
+#medios{
+    background-color: #e1b1e7;
+}
+
+.multimedios{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#youtube, #promo{
+    width: 90%;
+    height: 400px;
+}

@@ -3,9 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer titulo </title>
+    <meta name ="author" content="Angel Valadez">
+    <meta name ="copyrigth" content="alvr2024">
+    <meta name ="description" content="Ejemplos de Tendencias de diseños 2024">
+    <meta name ="keyword" content="Diseños, Tendencias, Web, 2024">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- icono -->
+    <title>Tendencias</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mi titulo</h1>
+  <header id="inicio">
+    <article id="titulos">
+      <h4>Diseño Reflexivo</h4>
+      <h1 id="tendencia">Tendencias de diseño 2024</h1>
+      <h3>Los usuarios desarrollaron un gusto por un estilo de vida menos ajetreado por la pandemia</h3>
+    </article>
+    <article id="video_intro">
+      <video src="medios/video/tinta.mp4" id="principal" autoplay  muted loop></video>
+    </article>
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#Tendencias">Tendencia</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#medios">Medios</a>
+    <a href="galeria.html">galeria </a>
+  </nav>
+  <section class="contenedor" id="Tendencias">
+    <h1 class="titulo"> Degradados y Colores Pastel</h1>
+    <figure data-aos="fade-down" data-aos-duration="1500">
+      <h3>Mi logotipo</h3>
+      <img  id="img_cly" src="image/Claymorfismo_1.png" alt="Claymorfismo_1">
+      <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni iusto voluptatum molestias ex obcaecati repellendus, voluptatibus amet aliquam, possimus sequi omnis rem sit odit nostrum unde esse culpa ullam neque.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab deserunt deleniti nihil id! Quidem aspernatur consequatur nobis numquam minima hic quasi quia. Eaque, assumenda. Odit neque corrupti a minus cumque!
+          Accusamus maxime voluptatum fuga? Quos quod fuga iste nisi ea aliquam, consequuntur pariatur quibusdam deserunt consequatur dolores, minima enim beatae repellendus. Ratione corrupti veniam quibusdam eius illum reprehenderit, aliquid iste!
+        </figcaption>
+        </figure>
+    <article id="concepto_clay">
+      <fieldset data-aos="fade-up-right">
+        <legend>¿Qué es Claymorfismo?  </legend>
+        <span class="material-symbols-outlined" id="icono">
+          done_all
+          </span>
+        <p>
+          <span>Lorem, ipsum.</span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt, est modi numquam perspiciatis alias impedit nobis nam dolor beatae error mollitia porro, aliquam aliquid nulla! Quo facilis tenetur sint.
+        </p>
+        <ul>
+          <li>Animación</li>
+            <ol>
+              <li>2D</li>
+              <li>3D</li>
+            </ol>
+          <li>Desarrollo</li>
+        </ul>
+      </fieldset>
+    </article>
+    <table id="tabla">
+      <tr>
+        <th>HORA</th>
+        <th>LUNES</th>
+        <th>MARTES</th>
+      </tr>
+      <tr>
+        <td>7:00 - 8:00</td>
+        <td>Calculo Diferencial</td>
+        <td>Sistemas Operativos</td>
+      </tr>
+      <tr>
+        <td>8:05 - 8:50</td>
+        <td>Calculo Diferencial</td>
+        <td>Sistemas Operativos</td>
+      </tr>
+      <tr>
+        <td>8:55 - 9:45</td>
+        <td>Diseño Digital</td>
+        <td>Diseño Digital</td>
+      </tr>
+    </table>
+
+  </section>
+  <section class="contenedor" id="contacto">
+    <article id="glass_estilo">
+      <h2>Glasmorfismo</h2>
+      <form action="">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="email" name="correo" placeholder="Correo">
+        <input type="password" name="contrasena" placeholder="Contraseña">
+
+        <input type="submit" value="Almacenar" class="boton">
+      </form>
+
+    </article>
+
+    <iframe id ="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.491131688651!2d-101.65460792496667!3d21.092977080572474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe406da6a453%3A0x4f2e793b3e5ccdbb!2sLatinMix%20Studio!5e0!3m2!1ses-419!2smx!4v1717785055545!5m2!1ses-419!2smx"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </section>
+
+  <section class="contenedor" id="medios">
+    <h1 class="titulo">medios</h1>
+    <article class="multimedios">
+        <iframe id="youtube" src="https://www.youtube.com/embed/w8wuYLznd9k?si=8-eBfX1SmikfAjI1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+
+    <article class="multimedios">
+        <video src="medios/video/dove.mp4" id="promo" controls poster="image/Claymorfismo_1.png"></video>
+    </article>
+    <article class="multimedios">
+        <audio id="audio" src="medios/audio/written in the stars.mp3" controls></audio>
+    </article>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
+
 </html>
